@@ -1,8 +1,3 @@
-:Title: Rickard Armiento: About me
-:Date: 2001-08-16
-:Version: 1
-:Author: Rickard Armiento
-
 .. image:: resources/img/rickard_armiento.jpg
    :align: right
 	   

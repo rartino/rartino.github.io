@@ -1,8 +1,3 @@
-:Title: Rickard Armiento: Teaching
-:Date: 2019-12-20
-:Version: 1
-:Author: Rickard Armiento
-
 Teaching
 ========
 

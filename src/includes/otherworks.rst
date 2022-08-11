@@ -1,8 +1,3 @@
-:Title: Rickard Armiento: Other works
-:Date: 2018-12-20
-:Version: 1
-:Author: Rickard Armiento
-
 Other works
 ===========
 

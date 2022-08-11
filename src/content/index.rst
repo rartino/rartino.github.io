@@ -13,9 +13,7 @@
 	 <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
 	 <div class="document">
 
-.. container:: custom
-
-   .. include:: content/tabs/about.rst
+.. include:: ../includes/about.rst
 
 .. raw:: html
 
@@ -27,9 +25,7 @@
 	 <div class="tab-pane fade show" id="publications" role="tabpanel" aria-labelledby="publications-tab">
 	 <div class="document">
 
-.. container:: custom
-
-   .. include:: content/tabs/publications.rst
+.. include:: ../includes/publications.rst
 
 .. raw:: html
 
@@ -41,7 +37,7 @@
 	 <div class="tab-pane fade show" id="cv" role="tabpanel" aria-labelledby="cv-tab">
 	 <div class="document">
 
-.. include:: content/tabs/cv.rst
+.. include:: ../includes/cv.rst
 
 .. raw:: html
 
@@ -53,7 +49,7 @@
 	 <div class="tab-pane fade show" id="otherworks" role="tabpanel" aria-labelledby="otherworks-tab">
 	 <div class="document">
 
-.. include:: content/tabs/otherworks.rst
+.. include:: ../includes/otherworks.rst
 
 .. raw:: html
 
@@ -65,7 +61,7 @@
 	 <div class="tab-pane fade show" id="media" role="tabpanel" aria-labelledby="media-tab">
 	 <div class="document">
 
-.. include:: content/tabs/media.rst
+.. include:: ../includes/media.rst
 
 .. raw:: html
 
@@ -77,7 +73,7 @@
 	 <div class="tab-pane fade show" id="meetings" role="tabpanel" aria-labelledby="meetings-tab">
 	 <div class="document">
 
-.. include:: content/tabs/meetings.rst
+.. include:: ../includes/meetings.rst
 
 .. raw:: html
 
@@ -89,7 +85,7 @@
 	 <div class="tab-pane fade show" id="calendar" role="tabpanel" aria-labelledby="calendar-tab">
 	 <div class="document">
 
-.. include:: content/tabs/calendar.rst
+.. include:: ../includes/calendar.rst
 
 .. raw:: html
 
@@ -101,7 +97,7 @@
 	 <div class="tab-pane fade show" id="teaching" role="tabpanel" aria-labelledby="teaching-tab">
 	 <div class="document">
 
-.. include:: content/tabs/teaching.rst
+.. include:: ../includes/teaching.rst
 
 .. raw:: html
 
@@ -113,7 +109,7 @@
 	 <div class="tab-pane fade show" id="projects" role="tabpanel" aria-labelledby="projects-tab">
 	 <div class="document">
 
-.. include:: content/tabs/projects.rst
+.. include:: ../includes/projects.rst
 
 .. raw:: html
 

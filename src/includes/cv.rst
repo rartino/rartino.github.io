@@ -1,9 +1,3 @@
-:Title: Rickard Armiento: BIO and CV
-:Date: 2001-08-16
-:Version: 1
-:Author: Rickard Armiento
-
-
 BIO / CV
 ========
 

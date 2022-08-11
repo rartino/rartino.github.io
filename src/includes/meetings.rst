@@ -1,8 +1,3 @@
-:Title: Rickard Armiento: Meetings
-:Date: 2001-08-16
-:Version: 1
-:Author: Rickard Armiento
-
 Meetings etc.
 =============
 

@@ -1,9 +1,3 @@
-:Title: Rickard Armiento: Publications
-:Date: 2018-12-20
-:Version: 1
-:Author: Rickard Armiento
-
-
 Rickard Armiento's Publications
 ===============================
 
