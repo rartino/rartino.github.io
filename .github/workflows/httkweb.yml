@@ -45,7 +45,7 @@ jobs:
           cd web
           python3 ./publish.py
       - name: Setup Pages
-          uses: actions/configure-pages@v1        
+        uses: actions/configure-pages@v1        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1        
         with:
