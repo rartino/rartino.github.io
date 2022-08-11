@@ -44,12 +44,14 @@ jobs:
           export PATH=$PWD/httk/bin:$PATH
           cd web
           python3 ./publish.py
+          cd ..
+          find .
       - name: Setup Pages
         uses: actions/configure-pages@v1        
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1        
         with:
-          path: 'output'
+          path: './web/output'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@main
