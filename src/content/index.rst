@@ -1,121 +1,96 @@
-:Title: About me
+:Title: Rickard Armiento: About me
 :Date: 2001-08-16
 :Version: 1
 :Author: Rickard Armiento
-:Layout: index
 
-.. raw:: html
+.. image:: resources/img/rickard_armiento.jpg
+   :align: right
+	   
+Rickard Armiento
+================
 
-	 <div class="tab-content" id="tabs">
+About me
+--------
 
-.. raw:: html
+Associate Professor in Physical Modeling - Application Expert in Big
+Data Analytics, `Linköping University,
+Sweden <https://liu.se/en/employee/ricar47>`__.
 
-	 <div class="tab-pane fade show active" id="about" role="tabpanel" aria-labelledby="about-tab">
-	 <div class="document">
+*Researcher in Computational physics and materials science, solid state
+physics, density functional theory, development of exchange-correlation
+functionals, computational code development, high-throughput
+computational methods. Applications relating to piezoelectric perovskite
+materials, photovoltaic solar energy materials, charge transfer in
+extended molecular systems, semiconductor defects and 2D materials
+(graphene and others).*
 
-.. include:: ../includes/about.rst
+| **Networks and Centres:** `Swedish e-science Research Centre
+  (SeRC) <https://e-science.se/>`__,
+  `National Supercomputer Centre
+  (NSC) <https://www.nsc.liu.se/about/staff/>`__
+| Past affiliations: `Massachusetts Institute of Technology (Ceder
+  group) <http://web.mit.edu/ceder/alumni.html>`__,
+  `Bayreuth University (Theoretical Physics
+  IV) <http://www.tp4.uni-bayreuth.de/en/team/>`__,
+  `Royal Institute of Technology - KTH (Theory of
+  Materials) <http://www.theophys.kth.se/theomat/staff/>`__
 
-.. raw:: html
+Contact Information for Rickard Armiento
+----------------------------------------
 
-	 </div>
-	 </div>
+-  *Telephone*: `click
+   here <https://liu.se/en/employee/ricar47>`__.
+-  *Email*: *rickard.armiento [at] liu.se*
+-  *Skype*: ***rickard.armiento***
+-  *Postal address:*
 
-.. raw:: html
+   .. code:: text
+	     
+     Rickard Armiento,
+     Department of Physics, Chemistry and Biology (IFM),
+     Linköping University,
+     SE-58183 Linköping,
+     Sweden
+   
+-  *Social networks:*
+   `Google+ <https://plus.google.com/100951917319376579715>`__,
+   `LinkedIn <https://www.linkedin.com/in/armiento/>`__,
+   `Facebook <https://www.facebook.com/rartino>`__,
+   `Twitter <https://twitter.com/rartino>`__,
+   `Github <https://github.com/rartino>`__
+-  *Researcher networks:*
+   `ResearcherID <http://www.researcherid.com/rid/E-1413-2011>`__,
+   `Google
+   Scholar <https://scholar.google.com/citations?user=pKgijDwAAAAJ>`__,
+   `Microsoft Academic <https://academic.microsoft.com/#/profile/armiento>`__,
+   `ResearchGate <https://www.researchgate.net/profile/Rickard_Armiento>`__,
+   `Scopus <https://www.scopus.com/authid/detail.uri?authorId=23767886600>`__,
+   `Academia.edu <https://liu-se.academia.edu/RickardArmiento>`__,
+   ORCID:
+   `0000-0002-5571-0814 <http://orcid.org/0000-0002-5571-0814>`__
 
-	 <div class="tab-pane fade show" id="publications" role="tabpanel" aria-labelledby="publications-tab">
-	 <div class="document">
+Websites and Software
+---------------------
 
-.. include:: ../includes/publications.rst
+The open materials database is meant as a research database/toolset to
+aid in materials design. It is currently under construction at this
+address:
 
-.. raw:: html
+-  `http://www.openmaterialsdb.se <http://openmaterialsdb.se/>`__
 
-	 </div>
-	 </div>
+The Open Materials Database is built using a the High-Throughput Toolkit
+(httk). It is a freely available open source framework for preparing and
+running calculations, analyzing the results and store them in a global
+and/or in a personalized database. Httk documentation and downloads are
+available here:
 
-.. raw:: html
+-  `http://httk.openmaterialsdb.se <http://httk.openmaterialsdb.se/>`__
 
-	 <div class="tab-pane fade show" id="cv" role="tabpanel" aria-labelledby="cv-tab">
-	 <div class="document">
+Other useful links
+------------------
 
-.. include:: ../includes/cv.rst
+.. role:: raw-html(raw)
+   :format: html
 
-.. raw:: html
-
-	 </div>
-	 </div>
-
-.. raw:: html
-
-	 <div class="tab-pane fade show" id="otherworks" role="tabpanel" aria-labelledby="otherworks-tab">
-	 <div class="document">
-
-.. include:: ../includes/otherworks.rst
-
-.. raw:: html
-
-	 </div>
-	 </div>
-
-.. raw:: html
-
-	 <div class="tab-pane fade show" id="media" role="tabpanel" aria-labelledby="media-tab">
-	 <div class="document">
-
-.. include:: ../includes/media.rst
-
-.. raw:: html
-
-	 </div>
-	 </div>
-
-.. raw:: html
-
-	 <div class="tab-pane fade show" id="meetings" role="tabpanel" aria-labelledby="meetings-tab">
-	 <div class="document">
-
-.. include:: ../includes/meetings.rst
-
-.. raw:: html
-
-	 </div>
-	 </div>
-
-.. raw:: html
-
-	 <div class="tab-pane fade show" id="calendar" role="tabpanel" aria-labelledby="calendar-tab">
-	 <div class="document">
-
-.. include:: ../includes/calendar.rst
-
-.. raw:: html
-
-	 </div>
-	 </div>
-
-.. raw:: html
-
-	 <div class="tab-pane fade show" id="teaching" role="tabpanel" aria-labelledby="teaching-tab">
-	 <div class="document">
-
-.. include:: ../includes/teaching.rst
-
-.. raw:: html
-
-	 </div>
-	 </div>
-
-.. raw:: html
-
-	 <div class="tab-pane fade show" id="projects" role="tabpanel" aria-labelledby="projects-tab">
-	 <div class="document">
-
-.. include:: ../includes/projects.rst
-
-.. raw:: html
-
-	 </div>
-	 </div>
-
-.. raw:: html
-
-	 </div>
+- :raw-html:`<a href="./index.html#tab_projects" onclick="window.location.reload(true);">Diploma and Project work: More info here</a>`
+   

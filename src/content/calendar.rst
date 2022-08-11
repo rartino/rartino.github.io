@@ -1,9 +1,12 @@
+:Title: Rickard Armiento: Calendar
+:Date: 2001-08-16
+:Version: 1
+:Author: Rickard Armiento
+
 Calendar
 ========
 
-.. comment
-
-  .. raw:: html
+.. raw:: html
 
     <iframe src="https://www.vyte.in/rickard?embed" width="100%" height="1500px" frameborder="0">https://www.vyte.in/rickard</iframe>
 

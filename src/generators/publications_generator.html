@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <style>
+    * {
+      font-family: sans-serif;
+    }
+    </style>
+    <script>
+
+      var debug = "";
+      
+      function do_pub_list() {
+      //var zoterourl = 'https://api.zotero.org/users/218875/publications/items?format=json&include=data,bib&sort=dateAdded&direction=desc';
+      var zoterourl = 'https://api.zotero.org/users/218875/publications/items?format=json&include=data,bib&style=american-physics-society&sort=date&direction=desc&limit=150';
+
+        $.getJSON(zoterourl, function(citations) {
+
+        var counts={};
+      
+	  var count = 1;
+          for (c in citations){
+                //console.log(citations[c]);
+                var doc = $.parseHTML(citations[c].bib);
+                //console.log(doc);
+                var text = $(doc).find('.csl-right-inline')[0].innerHTML;
+                //debug = htmlentry;
+                //var authors = htmlentry.substring(0,htmlentry.indexOf('“'));
+                //var title = htmlentry.substring(htmlentry.indexOf('“') + 1,htmlentry.indexOf('”'));
+                //var rest = htmlentry.substring(htmlentry.indexOf('”') + 1);
+                var w = citations[c].data;
+                var title = w.title;
+                var url = '';
+                if (w.DOI != undefined) {
+                  url = 'https://dx.doi.org/'+w.DOI;
+                } else {
+                  url = w.url;
+                }
+                text = text.replace(/R(ickard|.)? Armiento/gi, '<b>$&</b>');
+                text = text.replace(/<i>.*<\/i>/gi, '');
+                var type = w.itemType;
+                if($("#"+type) == undefined) {
+                  console.log("Not found"+type);
+                 }
+                console.log(type)
+                if(counts[type] == undefined) {
+                  counts[type] = 0;
+         	  $("#"+type).empty();
+                }
+                var extra = w.extra.replace(/\[(.*?)\]\((http[^)]*)\)/gi, '<a href="$2">$1</a>');
+                if(url != undefined) {
+                    counts[type] += 1;
+                    //$("#"+type).append((counts[type].toString()) + ". <a target='_parent' href='"+url+"'><b><i>"+title+"</i></b></a><br/>" + text + extra + "</li>\n\n");
+                   $("#"+type).append("<li><a target='_parent' href='"+url+"'><b><i>"+title+"</i></b></a><br/>" + text + extra + "</li>\n\n");
+  	        } else {
+                    //$("#"+type).append((counts[type].toString()) + ". <b><i>"+title+"</i></b><br/>" + text + extra + "<br/><br/>\n");
+      	            $("#"+type).append("<li><b><i>"+title+"</i></b><br/>" + text + extra + "<li>\n\n");
+		}
+		count += 1;
+	  }
+        });
+      }
+      window.onload = do_pub_list();
+    </script>								
+</head>
+  <body>
+    <div id="output">
+    <h2>Journal Articles</h2>
+    <ol id="journalArticle"><img src="https://sites.google.com/a/armiento.se/rickard-armiento/Ajax-loader.gif?attredirects=0"/></ol>
+    <h2>Conference Papers</h2>
+    <ol id="conferencePaper"><img src="https://sites.google.com/a/armiento.se/rickard-armiento/Ajax-loader.gif?attredirects=0"/></ol>
+    <h2>Book Sections</h2>
+    <ol id="bookSection"><img src="https://sites.google.com/a/armiento.se/rickard-armiento/Ajax-loader.gif?attredirects=0"/></ol>    
+    <h2>Theses</h2>
+    <ol id="thesis"><img src="https://sites.google.com/a/armiento.se/rickard-armiento/Ajax-loader.gif?attredirects=0"/></ol>
+    <h2>Reports</h2>
+    <ol id="report"><img src="https://sites.google.com/a/armiento.se/rickard-armiento/Ajax-loader.gif?attredirects=0"/></ol>
+    <div style="color:red" id="bibfails"></div>
+    </div>
+								</body>
+								</html>
