@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="$content.meta_description">
+    <meta name="description" content="{page.meta_description}">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
 
@@ -34,8 +34,7 @@
   }}
 
 </style>
-  <body>
-
+<body>
     <nav class="navbar navbar-custom navbar-expand-md navbar-static-top border-bottom border-3 border-darkgrey">
       <div class="btn-group">
 	<button type="button" class="btn btn-info" style="padding:0; line-height: 0; border: 0; margin: 0;"><a href="{page.relbaseurl}/index.html" style="padding:0; line-height: 0; border: 0; margin: 0;"><img src="{page.relbaseurl}/resources/img/rickard_armiento_banner.png" alt="Rickard Armiento" /></a></button>
@@ -77,44 +76,14 @@
 	</ul>
       </div>
     </nav>
-    <div class="container">
-<main role="main">
-<div class="document">
-  {content}
-</div>
-</main>
-    </div>
-    <hr>
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                  <ul class="list-inline text-center">
-                    $for f in email.split():
-                      <li>
-                        <a href="mailto:$f">
-                          <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-                          </span>
-                        </a>
-                      </li>
-                    $for f in social.split():
-                    <li>
-                      <a href="$f.url">
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-$f.title fa-stack-1x fa-inverse"></i>
-                        </span>
-                      </a>
-                    </li>
-                  </ul>
-                  <p class="copyright text-muted">$copyright</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+  <div class="container">
+    <main role="main">
+      <div class="document">
+        {content}
+      </div>
+    </main>
+  </div>
+</body>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -138,3 +107,4 @@
                  }});
   }});
 </script>
+</html>
