@@ -17,22 +17,22 @@
 
   </head>
 <style>
-  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{background-color: white; color: black;}
-  .dropdown .dropdown-menu .dropdown-item {background-color: white; color: grey;}
+  .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{{background-color: white; color: black;}}
+  .dropdown .dropdown-menu .dropdown-item {{background-color: white; color: grey;}}
 
-  .align-right {
+  .align-right {{
   float: right;
   margin: 2em;
-  }
+  }}
 
-  h1, h2, h3 { 
+  h1, h2, h3 {{
     padding-top: 1em;
-  }
+  }}
 
-  .publist a {
-    font-style: italic;    
-  }
-  
+  .publist a {{
+    font-style: italic;
+  }}
+
 </style>
   <body>
 
@@ -71,7 +71,7 @@
               <a class="dropdown-item" data-toggle="tab" href="#meetings">Meetings</a>
               <a class="dropdown-item" data-toggle="tab" href="#calendar">My Calendar</a>
               <a class="dropdown-item" data-toggle="tab" href="#teaching">Teaching</a>
-              <a class="dropdown-item" data-toggle="tab" href="#projects">Diploma and Project Works</a>      
+              <a class="dropdown-item" data-toggle="tab" href="#projects">Diploma and Project Works</a>
             </ul>
           </li>
 	</ul>
@@ -124,17 +124,17 @@
     <script src="$content.relbaseurl/dist/bootstrap/bootstrap.min.js"></script>
 
 <script>
-  $(document).ready(function() {
+  $(document).ready(function() {{
 
     var hash = document.location.hash;
     var prefix = "tab_";
-    if (hash) {
+      if (hash) {{
       $('a[data-toggle="tab"][href="'+hash.replace(prefix,"")+'"]').tab('show');
-    }
+      }}
 
     // Change hash for page-reload
-    $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+                 $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {{
       window.location.hash = e.target.hash.replace("#", "#" + prefix);
-    });
-  });
+                 }});
+  }});
 </script>
