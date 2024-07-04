@@ -10,24 +10,7 @@ BIO / CV
 BIO
 ---
 
-Rickard Armiento received his Ph.D. in theoretical physics in 2005 at
-the Royal Institute of Technology (KTH) in Sweden with Prof. Göran
-Grimvall as supervisor and Dr. Ann E. Mattsson as co-supervisor. His
-work was on the development of improved computational methods for
-materials properties. He then received a Humboldt Postdoctoral
-Fellowship to join the group of Prof. Stephan Kümmel at the University
-of Bayreuth in Germany, where his work was on the computational
-description of polarizability. In 2009 he went on a second postdoc in
-the group of Prof. Gerbrand Ceder at Massachusetts Institute of
-Technology (MIT) in the USA, where he worked on high-throughput
-electronic structure calculations for the design of energy materials.
-Since 2012, Dr. Armiento is at Linköping University in Sweden, where he
-was appointed Docent in 2015, and associate professor in physical
-modeling in June 2017. His current research ranges over
-exchange-correlation energy, high-throughput materials design,
-properties of graphene, and machine learning for materials properties.
-Since 2016 he is also an application expert in big data analytics at the
-National Supercomputer Centre at Linköping University.
+Rickard Armiento is an associate professor of physical modeling at Linköping University in Sweden, in the Department of Physics, Chemistry and Biology. He received his Ph.D. at the Royal Institute of Technology (KTH) in Sweden under the supervision of Prof. Göran Grimvall and co-supervision of Dr. Ann E. Mattsson with a thesis on improved theoretical methods for for computational materials science using density-functional theory (DFT), concluding with the Armiento-​Mattsson exchange-correlation functional (AM05) now implemented in a wide range of software packages. He received the Alexander von Humboldt Postdoctoral Research Fellowship in 2006 to join the group of Prof. Stephan Kümmel at the University of Bayreuth in Germany for work on improved methods for calculations of polarizability. He started another postdoc position in 2009 with Prof. Gerbrand Ceder at Massachusetts Institute of Technology (MIT) in the USA to apply high-throughput electronic structure calculations in the design of energy materials, specifically for piezoelectric, photovoltaic, and thermoelectric applications. In 2012, Dr. Armiento started a position at Linköping University after receiving a 4-year junior researchers grant from the Swedish Research Council. He was appointed Docent in 2015, associate professor in 2017, and since 2020, he is the leader of the Materials Design and Informatics unit. Since 2016, his position also includes an appointment as application expert in big data analytics at the National Supercomputer Centre at Linköping University. Dr. Armiento’s ongoing research projects include high-throughput, AI, and machine-learning methods for materials design, DFT method development, and solid-state defects for quantum information applications. The Materials Design and Informatics unit hosts the high-throughput toolkit (httk; https://httk.org) of open-source software tools for high-throughput calculations and, since 2014, the Anyterial collection of materials databases (https://www.anyterial.se/) which include the ADAQ database, one of the most comprehensive sources of high-throughput data on point defects.
 
 CV
 --
